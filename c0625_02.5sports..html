@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Page Website with Bootstrap 5</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles can go here */
+    body {
+      padding-top: 56px; /* Adjust if you have a fixed navbar */
+    }
+    /* Responsive adjustments */
+    @media (min-width: 768px) {
+      body {
+        padding-top: 76px; /* Larger padding for a fixed navbar */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Brand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container text-center">
+      <h1>Welcome to Your Website</h1>
+      <p class="lead">A catchy slogan can go here.</p>
+      <a href="#about" class="btn btn-primary">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <h2>About Us</h2>
+          <p class="lead">Some brief information about your company or service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <h2>Our Services</h2>
+          <p class="lead">List your services here with some additional information.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <h2>Contact Us</h2>
+          <p class="lead">Get in touch with us. Fill out the form below.</p>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-4">
+    <p>&copy; 2024 JING. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
